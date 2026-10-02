@@ -27,7 +27,8 @@ Core systems foundations across the classic software stack:
 * **Operating Systems:**
   * [x] [01.1 - Deadlock & The 4 Coffman Invariants](CS_Fundamentals/01.1%20-%20Deadlock%20&%20The%204%20Coffman%20Invariants.md)  
     *Coffman Invariants, RAG Single vs. Multi-Instance Cycles, C POSIX Mutex Ordering, Universal Threshold Formula ($m \ge n(k - 1) + 1$).*
-  * [ ] **01.2 - Deadlock Handling:** Prevention vs. Avoidance vs. Detection & Dijkstra’s Banker’s Algorithm
+  * [x] [01.2 - Deadlock Handling: Prevention, Avoidance & Detection](CS_Fundamentals/01.2%20-%20Deadlock%20Handling%20%28Avoidance,%20Bankers%20Algorithm%20&%20Detection%29.md)  
+    *Prevention vs. Avoidance vs. Detection, State Space Topography, Banker's Algorithm Simulation, WFG Cycles & Aging.*
   * [ ] **01.3 - CPU Scheduling Fundamentals:** Turnaround, Wait Time, FCFS, SJF, SRTF & Starvation
   * [ ] **01.4 - Round Robin (RR) & Quantum Boundary Collapse:** $q \to 0$ vs $q \to \infty$ Context-Switch Latency
   * [ ] **01.5 - Virtual Memory & Paging:** Logical-to-Physical Translation, TLB Hits & EMAT Formula
