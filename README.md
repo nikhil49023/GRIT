@@ -48,6 +48,18 @@ Modern generative AI engineering, production pipelines, and evaluation standards
 
 ---
 
+### ⏱️ 3. [Quantitative Reasoning](Quantitative_Reasoning/)
+High-speed mental shortcuts, model questions, and zero-fraction methods:
+* [x] [01 - Time & Work and Pipes & Cisterns](Quantitative_Reasoning/01%20-%20Time%20&%20Work%20and%20Pipes%20&%20Cisterns.md)  
+  *The LCM / Chocolate Method, Worker Leaving Midway, Inverse Efficiency Ratios, Alternate Days, Leaks, and $M_1 D_1 H_1 / W_1$ formula.*
+* [ ] **02 - Speed, Time & Distance:** Relative Speed, Average Speed, Trains, Boats & Streams
+* [ ] **03 - Percentages, Profit & Loss:** Multipliers, Successive Discounts, Dishonest Dealer, SI & CI
+* [ ] **04 - Ratios, Mixtures & Alligations:** Ratio Chaining, Cross Alligation, Repeated Dilution
+* [ ] **05 - Numbers, Divisibility & HCF/LCM:** Unit Digit Cyclicity, Remainder Theorem, Trailing Zeroes
+* [ ] **06 - Permutations, Combinations & Probability:** Slot Method, Together/Separate, Committee Selection
+
+---
+
 ## 📖 How to Use with Obsidian
 
 This repository is ready to be opened directly as an [Obsidian](https://obsidian.md/) vault.
