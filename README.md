@@ -55,7 +55,8 @@ Modern generative AI engineering, production pipelines, and evaluation standards
 * [ ] **02 - Percentages & Applications:** Fraction-Percent Equivalence, Successive Change, Profit & Loss, Discount, SI & CI
 * [ ] **03 - Ratios, Proportions & Applications:** Direct/Inverse Variation, Mixtures & Alligations, Partnerships
 * [ ] **04 - Ages and Averages:** Age Equations & Timeline Shifts, Weighted Averages, Combined Average Invariants
-* [ ] **05 - Time, Speed & Distance:** Unit Conversions, Average & Relative Speed, Trains & Head-Start Races
+* [x] [05 - Time, Speed & Distance](Quantitative_Reasoning/05%20-%20Time,%20Speed%20&%20Distance.md)  
+  *Unit Conversions ($5/18$), Average Speed (Harmonic Mean), Relative Speed, Train Clearance Invariants, Races & Head-Starts, Boats & Streams.*
 * [x] [06 - Basic Time & Work](Quantitative_Reasoning/06%20-%20Basic%20Time%20&%20Work.md)  
   *Work Efficiency, Worker Leaving Midway, Alternate Days, Pipes & Cisterns (Leaks), Wage Distribution & MDH Man-Chain Rule.*
 * [ ] **07 - Permutations, Combinations & Probability:** Fundamental Counting, $nPr$ & $nCr$, Circular Permutations, Coins/Dice/Cards Probability
