@@ -1,55 +1,60 @@
-# ⚡ CS Fundamentals Mastery
+# ⚡ GRIT: Deep-Tech & Systems Mastery
 
-> **First-Principles, High-Yield Computer Science Notes.**  
-> Designed for university exams, technical interviews, and systems mastery. Balancing real-world physical intuitions, rigorous mathematical and kernel specifications, and high-frequency exam traps.
-
----
-
-## 🏛️ The Three-Pillar Pedagogical Architecture
-
-Every concept in this vault is deconstructed using a 3-step cognitive arc:
-1. **Physical Intuition (The "Aha!" Mental Model):** Real-world mechanical analogies that remove the abstraction.
-2. **Formal Kernel / Systems Specification:** Exact mathematical invariants, system call flows, and hardware-level mechanics.
-3. **High-Yield Traps & Socratic Drills:** The exact misconceptions and boundary conditions tested in rigorous technical evaluations.
+> **First-Principles, High-Yield Engineering Notes & Frameworks.**  
+> Built for rigorous technical assessments, deep-tech interviews, and engineering mastery. Every concept balances real-world intuition, exact mathematical and system specifications, and high-frequency exam traps.
 
 ---
 
-## 🗺️ Master Curriculum Roadmap
+## 🏛️ Repository Organization
 
-### ⚙️ Module 1: Operating Systems (OS)
-* [x] [01.1 - Deadlock & The 4 Coffman Invariants](01.1%20-%20Deadlock%20&%20The%204%20Coffman%20Invariants.md)  
-  *Coffman Invariants, RAG Single vs. Multi-Instance Cycles, C POSIX Mutex Ordering, Universal Threshold Formula ($m \ge n(k - 1) + 1$).*
-* [ ] **01.2 - Deadlock Handling:** Prevention vs. Avoidance vs. Detection & Dijkstra’s Banker’s Algorithm
-* [ ] **01.3 - CPU Scheduling Fundamentals:** Turnaround, Wait Time, FCFS, SJF, SRTF & Starvation
-* [ ] **01.4 - Round Robin (RR) & Quantum Boundary Collapse:** $q \to 0$ vs $q \to \infty$ Context-Switch Latency
-* [ ] **01.5 - Virtual Memory & Paging:** Logical-to-Physical Translation, TLB Hits & EMAT Formula
-* [ ] **01.6 - Page Faults & Thrashing:** The MMU Trap Sequence & Working Set Invariants
-* [ ] **01.7 - Page Replacement Algorithms:** Belady’s Paradox (FIFO) & Mathematical Immunity of Stack Algorithms (LRU/OPT)
+This repository is structured into distinct skill tracks, each maintained as a modular subject domain:
 
-### 🗄️ Module 2: Database Management Systems (DBMS) *(Coming Soon)*
-* **2.1 Transaction Management & ACID Mechanics:** Undo Log (Rollback) vs. Redo Log (WAL)
-* **2.2 Relational Normalization:** 1NF $\to$ 2NF $\to$ 3NF $\to$ BCNF Functional Dependencies
-* **2.3 B+ Tree Index Architecture:** Clustered vs. Secondary Indexing & Doubly-Linked Leaf Layer
+```
+GRIT/
+├── CS_Fundamentals/      # Operating Systems, DBMS, Computer Networks, OOP
+│   └── 01.1 - Deadlock & The 4 Coffman Invariants.md
+├── Applied_GenAI/        # RAG, RAGAS, Agentic Systems, Fine-Tuning
+│   └── README.md
+└── README.md
+```
 
-### 🌐 Module 3: Computer Networks (CN) *(Coming Soon)*
-* **3.1 The TCP 3-Way Handshake (RFC 9293):** ISN Synchronization & 2-Way Handshake Failure Proof
-* **3.2 TCP vs. UDP Protocol Engineering:** Byte Stream vs. Datagrams, Sliding Window Flow & Congestion
-* **3.3 HTTP Status Standards (RFC 9110):** The Critical 401 Unauthorized vs. 403 Forbidden Invariant
+---
 
-### 🧱 Module 4: Object-Oriented Systems & C++ Architecture *(Coming Soon)*
-* **4.1 Dynamic Dispatch:** Compiler `vtable` and `vptr` Memory Layout
-* **4.2 The Diamond Problem:** Multiple Inheritance Memory Duplication & Virtual Base Pointers (`vbptr`)
+## 📚 Skill Tracks & Curricula
+
+### ⚙️ 1. [CS Fundamentals](CS_Fundamentals/)
+Core systems foundations across the classic software stack:
+* **Operating Systems:**
+  * [x] [01.1 - Deadlock & The 4 Coffman Invariants](CS_Fundamentals/01.1%20-%20Deadlock%20&%20The%204%20Coffman%20Invariants.md)  
+    *Coffman Invariants, RAG Single vs. Multi-Instance Cycles, C POSIX Mutex Ordering, Universal Threshold Formula ($m \ge n(k - 1) + 1$).*
+  * [ ] **01.2 - Deadlock Handling:** Prevention vs. Avoidance vs. Detection & Dijkstra’s Banker’s Algorithm
+  * [ ] **01.3 - CPU Scheduling Fundamentals:** Turnaround, Wait Time, FCFS, SJF, SRTF & Starvation
+  * [ ] **01.4 - Round Robin (RR) & Quantum Boundary Collapse:** $q \to 0$ vs $q \to \infty$ Context-Switch Latency
+  * [ ] **01.5 - Virtual Memory & Paging:** Logical-to-Physical Translation, TLB Hits & EMAT Formula
+  * [ ] **01.6 - Page Faults & Thrashing:** The MMU Trap Sequence & Working Set Invariants
+  * [ ] **01.7 - Page Replacement Algorithms:** Belady’s Paradox (FIFO) & Stack Algorithms (LRU/OPT)
+* **DBMS:** ACID mechanics, WAL logs, Normalization (1NF through BCNF), and B+ Tree indexing.
+* **Computer Networks:** TCP 3-way handshake (RFC 9293), TCP vs UDP, RFC 9110 HTTP status invariants (401 vs 403).
+* **Object-Oriented Systems & C++:** Dynamic dispatch (`vtable`/`vptr`) and Diamond inheritance resolution.
+
+---
+
+### 🧠 2. [Applied Gen AI](Applied_GenAI/)
+Modern generative AI engineering, production pipelines, and evaluation standards:
+* **Retrieval-Augmented Generation (RAG):** Hybrid search, semantic embeddings, rerankers, and vector DB optimization.
+* **RAGAS Evaluation Framework:** Faithfulness, Answer Relevance, Context Precision, and Context Recall.
+* **Agentic Systems:** ReAct patterns, Reflexion self-correction loops, and structured tool-calling contracts.
 
 ---
 
 ## 📖 How to Use with Obsidian
 
-This repository is structured as a standalone [Obsidian](https://obsidian.md/) vault.
+This repository is ready to be opened directly as an [Obsidian](https://obsidian.md/) vault.
 1. Clone the repository:
    ```bash
-   git clone https://github.com/nikhil49023/cs-fundamentals-mastery.git
+   git clone https://github.com/nikhil49023/GRIT.git
    ```
-2. Open Obsidian $\to$ **Open folder as vault** $\to$ Select the cloned directory.
+2. Open Obsidian $\to$ **Open folder as vault** $\to$ Select the `GRIT` folder.
 3. Enjoy full native Mermaid diagrams, LaTeX math rendering, and bi-directional wikilinks.
 
 ---
