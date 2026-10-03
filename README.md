@@ -38,7 +38,8 @@ Core systems foundations across the classic software stack:
   *Transaction Theory & ACID (Undo log for Atomicity, Redo/WAL for Durability), ANSI Isolation phenomena (Dirty, Non-repeatable, Phantom read), Normalization (1NF to BCNF), and B+ Tree Index Architecture (Fan-out, doubly-linked leaves).*
 * [x] [03 - Computer Networks](CS_Fundamentals/03%20-%20Computer%20Networks%20%28TCP%203-Way%20Handshake,%20UDP%20&%20RFC%209110%20HTTP%29.md)  
   *TCP 3-Way Handshake & Walkie-Talkie model, Why 2-Way fails (half-open connections), TCP vs UDP (Registered Mail vs Megaphone, 20-60B vs 8B header), RFC 9110 HTTP codes (401 Auth vs 403 Forbidden, 502 vs 504).*
-* **Object-Oriented Systems & C++:** Dynamic dispatch (`vtable`/`vptr`) and Diamond inheritance resolution.
+* [x] [04 - OOPs & C++ Architecture](CS_Fundamentals/04%20-%20OOPs%20&%20C++%20Architecture%20%28vtable,%20vptr%20&%20Diamond%20Problem%29.md)  
+  *Dynamic Dispatch mechanics (static `vtable` in `.rodata`, hidden `vptr` at offset 0, 1 pointer indirection), The Diamond Problem & `virtual inheritance` (`vbptr`), virtual destructors & abstract class constraints.*
 
 ---
 
