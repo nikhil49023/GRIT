@@ -34,7 +34,8 @@ Core systems foundations across the classic software stack:
   * [ ] **01.5 - Virtual Memory & Paging:** Logical-to-Physical Translation, TLB Hits & EMAT Formula
   * [ ] **01.6 - Page Faults & Thrashing:** The MMU Trap Sequence & Working Set Invariants
   * [ ] **01.7 - Page Replacement Algorithms:** Belady’s Paradox (FIFO) & Stack Algorithms (LRU/OPT)
-* **DBMS:** ACID mechanics, WAL logs, Normalization (1NF through BCNF), and B+ Tree indexing.
+* [x] [02 - DBMS](CS_Fundamentals/02%20-%20DBMS%20%28ACID%20Logs,%20Normalization%201NF%20to%20BCNF%20&%20B+%20Trees%29.md)  
+  *Transaction Theory & ACID (Undo log for Atomicity, Redo/WAL for Durability), ANSI Isolation phenomena (Dirty, Non-repeatable, Phantom read), Normalization (1NF to BCNF), and B+ Tree Index Architecture (Fan-out, doubly-linked leaves).*
 * [x] [03 - Computer Networks](CS_Fundamentals/03%20-%20Computer%20Networks%20%28TCP%203-Way%20Handshake,%20UDP%20&%20RFC%209110%20HTTP%29.md)  
   *TCP 3-Way Handshake & Walkie-Talkie model, Why 2-Way fails (half-open connections), TCP vs UDP (Registered Mail vs Megaphone, 20-60B vs 8B header), RFC 9110 HTTP codes (401 Auth vs 403 Forbidden, 502 vs 504).*
 * **Object-Oriented Systems & C++:** Dynamic dispatch (`vtable`/`vptr`) and Diamond inheritance resolution.
