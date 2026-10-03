@@ -35,7 +35,8 @@ Core systems foundations across the classic software stack:
   * [ ] **01.6 - Page Faults & Thrashing:** The MMU Trap Sequence & Working Set Invariants
   * [ ] **01.7 - Page Replacement Algorithms:** Belady’s Paradox (FIFO) & Stack Algorithms (LRU/OPT)
 * **DBMS:** ACID mechanics, WAL logs, Normalization (1NF through BCNF), and B+ Tree indexing.
-* **Computer Networks:** TCP 3-way handshake (RFC 9293), TCP vs UDP, RFC 9110 HTTP status invariants (401 vs 403).
+* [x] [03 - Computer Networks](CS_Fundamentals/03%20-%20Computer%20Networks%20%28TCP%203-Way%20Handshake,%20UDP%20&%20RFC%209110%20HTTP%29.md)  
+  *TCP 3-Way Handshake & Walkie-Talkie model, Why 2-Way fails (half-open connections), TCP vs UDP (Registered Mail vs Megaphone, 20-60B vs 8B header), RFC 9110 HTTP codes (401 Auth vs 403 Forbidden, 502 vs 504).*
 * **Object-Oriented Systems & C++:** Dynamic dispatch (`vtable`/`vptr`) and Diamond inheritance resolution.
 
 ---
@@ -59,7 +60,8 @@ Modern generative AI engineering, production pipelines, and evaluation standards
   *Unit Conversions ($5/18$), Average Speed (Harmonic Mean), Relative Speed, Train Clearance Invariants, Races & Head-Starts, Boats & Streams.*
 * [x] [06 - Basic Time & Work](Quantitative_Reasoning/06%20-%20Basic%20Time%20&%20Work.md)  
   *Work Efficiency, Worker Leaving Midway, Alternate Days, Pipes & Cisterns (Leaks), Wage Distribution & MDH Man-Chain Rule.*
-* [ ] **07 - Permutations, Combinations & Probability:** Fundamental Counting, $nPr$ & $nCr$, Circular Permutations, Coins/Dice/Cards Probability
+* [x] [07 - Permutations, Combinations & Probability](Quantitative_Reasoning/07%20-%20Permutations,%20Combinations%20&%20Probability.md)  
+  *Arrangements vs Selections, Repeating Letters, String & Gap Methods, Dictionary Rank, Circular & Polygon Diagonals, Hypergeometric Urn Draws, Two-Dice Pyramid, At Least One Rule.*
 
 ---
 
